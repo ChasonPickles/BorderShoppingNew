@@ -7,7 +7,10 @@
 //
 
 import UIKit
-
+var locationResponse : String?
+var productSelected: String?
+var usPrice : Double = 0.0
+var caPrice : Double = 0.0
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
