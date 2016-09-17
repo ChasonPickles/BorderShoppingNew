@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+var locationResponse : String?
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

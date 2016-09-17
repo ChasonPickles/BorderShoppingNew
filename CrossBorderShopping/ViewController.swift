@@ -10,19 +10,12 @@ import UIKit
 import Alamofire
 class ViewController: UIViewController {
  
+    @IBAction func CAN(sender: AnyObject) {
+    }
+    @IBOutlet weak var USA: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        Alamofire.request(.GET, "https://xecdapi.xe.com/v1/account_info/",encoding: .JSON)
-            .authenticate(user: "hackthenorth053", password: "Waterloo2890")
-            .responseJSON { response in
-                print(response.request)  // original URL request
-                print(response.response) // HTTP URL response
-                print(response.data)     // server data
-                print(response.result)
-                if let JSON = response.result.value {
-                    print("JSON: \(JSON)")
-                }
-        }// result of response serialization
+    
     }
 
     override func didReceiveMemoryWarning() {
