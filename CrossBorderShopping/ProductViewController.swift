@@ -10,6 +10,16 @@ import UIKit
 
 class ProductViewController: UIViewController {
 
+    @IBAction func product1Selected(sender: AnyObject) {
+        print("Hello")
+        productSelected = "Macbook Pro"
+        openCurrency()
+        
+    }
+    func openCurrency(){
+        self.performSegueWithIdentifier("PushToCurrency", sender: self)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

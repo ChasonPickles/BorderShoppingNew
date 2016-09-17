@@ -7,12 +7,33 @@
 //
 
 import UIKit
+var cadTotal : Double = 0.0
+var usdTotal : Double = 0.0
 
 class CurrencyViewController: UIViewController {
 
+    @IBAction func CAD(sender: AnyObject) {
+    
+    openTotal()
+    }
+    
+    @IBAction func USD(sender: AnyObject) {
+        
+    openTotal()
+    }
+    
+    @IBAction func CADUSD(sender: AnyObject) {
+        
+    openTotal()
+    }
+    
+    func openTotal(){
+        self.performSegueWithIdentifier("PushToTotal", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        APIManager.sharedInstance.deleteThisFunctionAsWell()
         // Do any additional setup after loading the view.
     }
 

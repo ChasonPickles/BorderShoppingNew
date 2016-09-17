@@ -11,6 +11,19 @@ import Alamofire
 class ViewController: UIViewController {
  
     @IBAction func CAN(sender: AnyObject) {
+        
+    locationResponse = "CAD"
+        openProductView()
+    }
+    @IBAction func USA(sender: AnyObject) {
+        
+        locationResponse = "USD"
+        openProductView()
+        
+    }
+    func openProductView(){
+        self.performSegueWithIdentifier("PushToProduct", sender: self)
+        
     }
     @IBOutlet weak var USA: UIButton!
     override func viewDidLoad() {

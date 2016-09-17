@@ -8,6 +8,7 @@
 
 import UIKit
 var locationResponse : String?
+var productSelected: String?
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

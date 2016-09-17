@@ -15,6 +15,10 @@
 		736232CA1D8D26850041286B /* CrossBorderShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736232C91D8D26850041286B /* CrossBorderShoppingTests.swift */; };
 		736232D51D8D26850041286B /* CrossBorderShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736232D41D8D26850041286B /* CrossBorderShoppingUITests.swift */; };
 		736232E31D8D26930041286B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 736232E21D8D26930041286B /* Podfile */; };
+		7376AFC81D8D446400B4723B /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7376AFC71D8D446400B4723B /* ProductViewController.swift */; };
+		7376AFCA1D8D6EE900B4723B /* TotalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7376AFC91D8D6EE900B4723B /* TotalViewController.swift */; };
+		7376AFCC1D8D6EFE00B4723B /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7376AFCB1D8D6EFE00B4723B /* CurrencyViewController.swift */; };
+		7376AFCE1D8D71AB00B4723B /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7376AFCD1D8D71AB00B4723B /* APIManager.swift */; };
 		A5E4F6FB85B493145FA83C83 /* Pods_CrossBorderShopping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353565F68B84AB6F896C3B1C /* Pods_CrossBorderShopping.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +56,10 @@
 		736232D41D8D26850041286B /* CrossBorderShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossBorderShoppingUITests.swift; sourceTree = "<group>"; };
 		736232D61D8D26850041286B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		736232E21D8D26930041286B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7376AFC71D8D446400B4723B /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		7376AFC91D8D6EE900B4723B /* TotalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalViewController.swift; sourceTree = "<group>"; };
+		7376AFCB1D8D6EFE00B4723B /* CurrencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		7376AFCD1D8D71AB00B4723B /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		B2A1006296E24D6C65C3715A /* Pods-CrossBorderShopping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossBorderShopping.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossBorderShopping/Pods-CrossBorderShopping.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +117,10 @@
 			children = (
 				736232B41D8D26850041286B /* AppDelegate.swift */,
 				736232B61D8D26850041286B /* ViewController.swift */,
+				7376AFC71D8D446400B4723B /* ProductViewController.swift */,
+				7376AFCB1D8D6EFE00B4723B /* CurrencyViewController.swift */,
+				7376AFCD1D8D71AB00B4723B /* APIManager.swift */,
+				7376AFC91D8D6EE900B4723B /* TotalViewController.swift */,
 				736232B81D8D26850041286B /* Main.storyboard */,
 				736232BB1D8D26850041286B /* Assets.xcassets */,
 				736232BD1D8D26850041286B /* LaunchScreen.storyboard */,
@@ -336,8 +348,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7376AFCE1D8D71AB00B4723B /* APIManager.swift in Sources */,
+				7376AFC81D8D446400B4723B /* ProductViewController.swift in Sources */,
 				736232B71D8D26850041286B /* ViewController.swift in Sources */,
 				736232B51D8D26850041286B /* AppDelegate.swift in Sources */,
+				7376AFCA1D8D6EE900B4723B /* TotalViewController.swift in Sources */,
+				7376AFCC1D8D6EFE00B4723B /* CurrencyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
