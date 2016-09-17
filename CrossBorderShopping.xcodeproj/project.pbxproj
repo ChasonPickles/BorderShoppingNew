@@ -14,6 +14,8 @@
 		736232BF1D8D26850041286B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736232BD1D8D26850041286B /* LaunchScreen.storyboard */; };
 		736232CA1D8D26850041286B /* CrossBorderShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736232C91D8D26850041286B /* CrossBorderShoppingTests.swift */; };
 		736232D51D8D26850041286B /* CrossBorderShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736232D41D8D26850041286B /* CrossBorderShoppingUITests.swift */; };
+		736232E31D8D26930041286B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 736232E21D8D26930041286B /* Podfile */; };
+		A5E4F6FB85B493145FA83C83 /* Pods_CrossBorderShopping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353565F68B84AB6F896C3B1C /* Pods_CrossBorderShopping.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		353565F68B84AB6F896C3B1C /* Pods_CrossBorderShopping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrossBorderShopping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66117913771EA1001822DB32 /* Pods-CrossBorderShopping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossBorderShopping.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrossBorderShopping/Pods-CrossBorderShopping.release.xcconfig"; sourceTree = "<group>"; };
 		736232B11D8D26850041286B /* CrossBorderShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossBorderShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736232B41D8D26850041286B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		736232B61D8D26850041286B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		736232D01D8D26850041286B /* CrossBorderShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossBorderShoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		736232D41D8D26850041286B /* CrossBorderShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossBorderShoppingUITests.swift; sourceTree = "<group>"; };
 		736232D61D8D26850041286B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736232E21D8D26930041286B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2A1006296E24D6C65C3715A /* Pods-CrossBorderShopping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossBorderShopping.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossBorderShopping/Pods-CrossBorderShopping.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E4F6FB85B493145FA83C83 /* Pods_CrossBorderShopping.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +84,13 @@
 		736232A81D8D26850041286B = {
 			isa = PBXGroup;
 			children = (
+				736232E21D8D26930041286B /* Podfile */,
 				736232B31D8D26850041286B /* CrossBorderShopping */,
 				736232C81D8D26850041286B /* CrossBorderShoppingTests */,
 				736232D31D8D26850041286B /* CrossBorderShoppingUITests */,
 				736232B21D8D26850041286B /* Products */,
+				B5C01C948CABCF4B55E1FC9B /* Pods */,
+				886B3B6A834FD2DE42C24081 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +135,23 @@
 			path = CrossBorderShoppingUITests;
 			sourceTree = "<group>";
 		};
+		886B3B6A834FD2DE42C24081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				353565F68B84AB6F896C3B1C /* Pods_CrossBorderShopping.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5C01C948CABCF4B55E1FC9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2A1006296E24D6C65C3715A /* Pods-CrossBorderShopping.debug.xcconfig */,
+				66117913771EA1001822DB32 /* Pods-CrossBorderShopping.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 736232D91D8D26850041286B /* Build configuration list for PBXNativeTarget "CrossBorderShopping" */;
 			buildPhases = (
+				680DFC2174696B62DE72B9EE /* [CP] Check Pods Manifest.lock */,
 				736232AD1D8D26850041286B /* Sources */,
 				736232AE1D8D26850041286B /* Frameworks */,
 				736232AF1D8D26850041286B /* Resources */,
+				E335982A75995AF8FD168BDB /* [CP] Embed Pods Frameworks */,
+				101B32E381C8417B9707F004 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +223,7 @@
 				TargetAttributes = {
 					736232B01D8D26850041286B = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FRPZD9YD3Q;
 					};
 					736232C41D8D26850041286B = {
 						CreatedOnToolsVersion = 7.3;
@@ -231,6 +262,7 @@
 			files = (
 				736232BF1D8D26850041286B /* LaunchScreen.storyboard in Resources */,
 				736232BC1D8D26850041286B /* Assets.xcassets in Resources */,
+				736232E31D8D26930041286B /* Podfile in Resources */,
 				736232BA1D8D26850041286B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +282,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		101B32E381C8417B9707F004 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossBorderShopping/Pods-CrossBorderShopping-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		680DFC2174696B62DE72B9EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E335982A75995AF8FD168BDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossBorderShopping/Pods-CrossBorderShopping-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		736232AD1D8D26850041286B /* Sources */ = {
@@ -399,23 +479,31 @@
 		};
 		736232DA1D8D26850041286B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A1006296E24D6C65C3715A /* Pods-CrossBorderShopping.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CrossBorderShopping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harshbindra.CrossBorderShopping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		736232DB1D8D26850041286B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66117913771EA1001822DB32 /* Pods-CrossBorderShopping.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CrossBorderShopping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harshbindra.CrossBorderShopping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +572,7 @@
 				736232DB1D8D26850041286B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		736232DC1D8D26850041286B /* Build configuration list for PBXNativeTarget "CrossBorderShoppingTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +581,7 @@
 				736232DE1D8D26850041286B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		736232DF1D8D26850041286B /* Build configuration list for PBXNativeTarget "CrossBorderShoppingUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +590,7 @@
 				736232E11D8D26850041286B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

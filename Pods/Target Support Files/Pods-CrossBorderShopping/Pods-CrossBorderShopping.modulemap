@@ -1,0 +1,6 @@
+framework module Pods_CrossBorderShopping {
+  umbrella header "Pods-CrossBorderShopping-umbrella.h"
+
+  export *
+  module * { export * }
+}
