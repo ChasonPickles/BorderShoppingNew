@@ -24,7 +24,12 @@ class CurrencyViewController: UIViewController {
     
     @IBAction func CADUSD(sender: AnyObject) {
         
-    openTotal()
+    
+        print( "US")
+        cadTotal = APIManager.sharedInstance.xeCurrencyConvert("USD", to: "CAD", amount: usPrice)
+        print("CAD Price to US Price ")
+          usdTotal = APIManager.sharedInstance.xeCurrencyConvert("CAD", to: "USD", amount: caPrice)
+        openTotal()
     }
     
     func openTotal(){

@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Total View Controller-->
         <scene sceneID="4zF-CK-y2I">
             <objects>
-                <viewController id="BaR-ZW-gpF" sceneMemberID="viewController">
+                <viewController id="BaR-ZW-gpF" customClass="TotalViewController" customModule="CrossBorderShopping" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PzG-CZ-aPZ"/>
                         <viewControllerLayoutGuide type="bottom" id="6fh-42-n7J"/>

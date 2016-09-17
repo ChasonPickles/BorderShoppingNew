@@ -12,7 +12,9 @@ class TotalViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("Loaded View")
+        print(cadTotal)
+        print(usdTotal)
         // Do any additional setup after loading the view.
     }
 

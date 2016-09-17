@@ -12,7 +12,9 @@ class ProductViewController: UIViewController {
 
     @IBAction func product1Selected(sender: AnyObject) {
         print("Hello")
-        productSelected = "Macbook Pro"
+        productSelected = "Macbook"
+        usPrice = 1299.00
+        caPrice = 1549.00
         openCurrency()
         
     }
